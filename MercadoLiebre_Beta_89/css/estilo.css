@@ -1,0 +1,323 @@
+body {
+
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+
+    background-color: #fbbc02;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-top: 5px solid black;
+    box-shadow: 0px 2px 10px black;
+    width: 100%;
+    top: 0px;
+
+}
+
+.logo {
+
+    width: 50%;
+    
+}
+
+.registro {
+
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+    align-items: baseline;
+    font-size: 30px;
+    padding-top: 30px;
+    position: relative;
+}
+
+a:visited {
+
+    color: black;
+}
+
+.bx-user-circle {
+
+    font-size: 30px;
+    padding-right: 5px;
+
+}
+
+.bx-user-circle:hover {
+    color: white;
+    font-size: 30px;
+}
+
+.tarjeta1 {
+
+    width: 20%;
+    height: 30%;
+    border: 2px solid rgb(150, 149, 149);
+    border-radius: 10%;
+    padding: 10px
+    
+}
+.tarjeta2 {
+
+    width: 20%;
+    height: 30%;
+    border: 2px solid rgb(150, 149, 149);
+    border-radius: 10%;
+    padding: 10px;
+    
+}
+.tarjeta3 {
+
+    width: 20%;
+    height: 30%;
+    border: 2px solid rgb(150, 149, 149);
+    border-radius: 10%;
+    padding: 10px;
+    
+}
+
+.tarjeta1:hover {
+
+    box-shadow: 0px 0px 8px rgb(150, 149, 149);
+
+}
+
+.tarjeta2:hover {
+
+    box-shadow: 0px 0px 8px rgb(168, 165, 165);
+
+}
+
+.tarjeta3:hover {
+
+    box-shadow: 0px 0px 8px rgb(168, 165, 165);
+
+}
+
+.productos {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo {
+
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    z-index:-1; 
+}
+
+.img1 {
+
+    display: flex;
+    justify-content: center;
+}
+
+.info1 {
+
+    display: flex;
+    height: 25px;
+    align-items: baseline;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+button {
+
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+
+.img2 {
+
+    display: flex;
+    justify-content: center;
+}
+
+.info2 {
+
+    display: flex;
+    height: 25px;
+    align-items: baseline;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+
+.img3 {
+
+    display: flex;
+    justify-content: center;
+}
+
+.info3 {
+
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    align-items: baseline;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.promociones {
+
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    z-index: -1;
+}
+
+.prodPromociones {
+    display: flex;
+    justify-content: center;
+}
+
+.prodProm1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    border: 2px solid rgb(150, 149, 149);
+    border-radius: 10%;
+    margin: 5px;
+    padding: 10px;
+}
+.prodProm2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    border: 2px solid rgb(150, 149, 149);
+    border-radius: 10%;
+    margin: 5px;
+    padding: 10px;
+}
+
+.imgProdProm1 {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.imgProdProm2 {
+    display: flex;
+    justify-content: center;
+}
+.infoProdProm1 {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: baseline;
+}
+.infoProdProm2 {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: baseline;
+}
+
+.formulario {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fbbc02;
+    width: 60%;
+    height: 70%;
+}
+
+.logoForm {
+
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.datos {
+
+    width: 80%;
+    background-color: white;
+    border-radius: 10%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.btnForm {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.carousel {
+
+    z-index:-1; 
+}
+
+.imgFormModal {
+
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modal-body {
+
+    background-color: #fbbc02;
+    color: white;
+}
+
+.imgFormModal {
+
+    display: flex;
+    justify-content: center;
+    width: 80%;
+   
+}
+
+.imgFavicon {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer {
+
+    border-top: 1px solid grey;
+    padding-top: 20px;
+}
+
+.beta {
+
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
